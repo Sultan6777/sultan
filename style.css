@@ -1,0 +1,530 @@
+ *{
+     margin: 0;
+     padding: 0;
+     font-family:sans-serif;
+     box-sizing: border-box;
+    
+ }
+
+ .box{
+     width: 400px;
+     height: 40px;
+     background-color: white;
+     border-radius: 10px;
+     display: flex;
+     text-align: center;
+     padding: 20px;
+ }
+ .box >i {
+
+    font-size: 20px;
+    color: #777;
+}
+.box > input{
+   flex:1;
+   height: 23px;
+   border: none;
+   font-size:18px; 
+   padding-left:25px 10px;
+   padding-bottom: none;
+}
+.text{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.text>p{
+    color: #777;
+}
+.imgs{
+    position: absolute;
+  
+    top: 27%;
+    left: 50%;
+ background-color:none;
+     
+}
+.buttom{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.buttom>h5{
+    color: #777;
+}
+.buttom>input{
+  outline: none;
+  margin: 14px 0;
+  position: absolute;
+  padding: 10px 30px;
+  box-sizing:border-box;
+  border-radius: 5px;
+  top: 108%;
+  left:40%;
+  transform: translate(-50%, -50%); 
+ 
+}
+.buttom>button{
+ position: absolute;
+ top: 90%;
+ left: 75%;
+ display: block;
+  border: none;
+  background-color: #1535c4;
+  color: white;
+  padding: 12px 20px ;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+}
+.buttom>button :hover{
+    background-color: rgb(81, 81, 190);
+}
+.choose{
+    position: absolute;
+    top: 85%;
+    left:16%;   
+}
+.choose>p{
+    color: #777;
+}
+.paris{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #777; 
+   
+   }
+   
+  
+   .paris>p{
+       text-align: center;
+       top: 100%;
+   }
+   .center{
+     position: absolute;
+     top: 98%;
+     left: 31%;  
+   }
+   .pythonic{
+    position: absolute;
+    top: 89%;
+    left: 31%; 
+   
+   
+   }
+   .dhaka{
+    position: absolute;
+    top: 85%;
+    left: 41%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #777; 
+   }
+     
+   
+   .top{
+    position: absolute;
+     top: 98%;
+     left: 42%;   
+
+
+   }
+   .ic{
+    position: absolute;
+    top: 89%;
+    left: 42%;
+    
+   }
+   .rangpur{
+    position: absolute;
+    top: 85%;
+    left: 52.5%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #777;   
+   }
+    
+   
+   .topjava{
+       position: absolute;
+       top: 98%;
+       left: 53%;
+   }
+   .java{
+    position: absolute;
+    top: 89%;
+    left: 53%;
+   }
+   .parbotipur{
+    position: absolute;
+    top: 85%;
+    left: 64%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #777; 
+   }
+    
+   
+   .topjs{
+    position: absolute;
+    top: 98%;
+    left: 64.5%;
+   }
+   .js{
+    position: absolute;
+    top: 89%;
+    left: 64.5%;  
+   }
+   .habra{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #777;  
+   }
+   
+   
+   .view{
+       color: rgb(53, 53, 202);
+   }
+   .view>p{
+    position: absolute;
+    top: 100%;
+    left: 78%;
+   }
+   .compiler{
+     position: absolute;
+     top: 125%;
+     left: 15%;
+   }
+   .python{
+    position: absolute;
+    top: 140%;
+    left: 58%;
+   
+  
+  }
+  .python>p{ 
+      color: #777;
+
+  }
+  .block {
+    position: absolute;
+    top: 160%;
+    left: 58%;
+    display: block;
+    width: 15%;
+    border: none;
+    background-color: #0f3bb6;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .why{
+      position:absolute;
+      top: 215%;
+      left: 45%;
+  }
+  .easy{
+      position: absolute;
+      top:235% ;
+      left: 20%;
+  }
+  .easy>p{
+      color: #777;
+  }
+  .trust{
+      position: absolute;
+      top:235% ;
+      left: 48%;  
+  }
+  .trust>p{
+      color: #777;
+  }
+  .doing{
+    position: absolute;
+    top:235% ;
+    left: 75%;
+  }
+  .doing>p{
+      color: #777;
+  }
+  .phone{
+      position: absolute;
+      top: 290%;
+      left: 63%;
+      width: 600px;
+      height: 700px;
+  }
+  .ios{
+      position: absolute;
+      top: 290%;
+      left: 15%;
+  }
+  .ios> h4 {
+      color: #777;
+  }
+  .ios>p{
+      color: #777;
+  }
+  .white{
+    position: absolute;
+    top: 300%;
+    left: 32%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color:rgb(42, 165, 165);  
+  }
+  .cpp>p{
+      position: absolute;
+      top: 308%;
+      left: 33%;
+  }
+  .cpp>img{
+      position: absolute;
+      top: 301%;
+      left: 32.5%;
+      width: 4.5%;
+  }
+  .texta{
+     position: absolute;
+     top: 317%;
+     left: 33%;
+     color: rgb(194, 23, 157);
+  }
+  .black{
+    position: absolute;
+    top: 300%;
+    left: 44%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color:rgb(42, 165, 165); 
+  }
+  .pythn>img{
+    position: absolute;
+    top: 301%;
+    left: 45%;
+    width: 4.5%;  
+  }
+  .pythn>p{
+    position: absolute;
+    top: 308%;
+    left: 45%;  
+  }
+  .blue{
+    position: absolute;
+    top: 300%;
+    left: 56%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color:rgb(42, 165, 165);
+  }
+  .learnc>img{
+    position: absolute;
+    top: 301%;
+    left: 56.5%;
+    width: 7%; 
+  }
+  .learnc>p{
+    position: absolute;
+    top: 308%;
+    left: 56.5%;  
+  }
+  .red{
+    position: absolute;
+    top: 330%;
+    left: 32%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border-color:rgb(42, 165, 165);
+  }
+  .learnj>img{
+    position: absolute;
+    top: 331%;
+    left: 32.5%;
+    width: 4.5%;
+  }
+  .learnj>p{
+    position: absolute;
+    top: 336%;
+    left: 32.5%;  
+  }
+  .google>img{
+    position: absolute;
+    top: 325%;
+    left: 11%;
+    width: 15%;
+    height: 5%;
+  }
+  .google>a{
+    position: absolute;
+    top: 325%;
+    left: 15%;
+    width: 7%;
+    height: 5%;
+  }
+  .App>img{
+    position: absolute;
+    top: 325%;
+    left: 23%;
+    width: 8%;
+    height: 5%; 
+  }
+  .App>a{
+    position: absolute;
+    top: 325%;
+    left: 23%;
+    width: 7%;
+    height: 5%; 
+  }
+
+
+  .footer {  
+    top: 400%;
+    position: absolute;
+  
+    padding: 3px;
+    background-color: rgb(28, 48, 83);
+    color: white;
+    width: 1600px;
+    height:600px;
+  }
+   .footer>img{
+    position: absolute;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+   }
+   .footer>input{
+     position: absolute;
+     top: 42.5%;
+     left: 23%;
+     outline: none;
+     margin: 14px 0;
+     position: absolute;
+     padding: 8px 31px;
+     box-sizing:border-box;
+     border-radius: 5px;
+     transform: translate(-50%, -50%); 
+   }
+   .footer>p{
+     position: absolute;
+     top: 25%;
+     left: 15%;
+   }
+  .footer>button{
+    position: absolute;
+    top: 42.5%;
+    left: 32%;
+    outline: none;
+    margin: 14px 0;
+    position: absolute;
+    padding: 10px 30px;
+    box-sizing:border-box;
+    border-radius: 1px;
+    transform: translate(-50%, -50%); 
+    background-color: #0f12b6;
+    color: aliceblue;
+    border: azure;
+  }
+  
+  
+  footer>a{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 10%;
+    height: 10%;
+  }
+  .store>a{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 10%;
+    height: 10%;
+  }
+  .Tutorial  {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+   
+    color: rgb(247, 255, 240);
+    border: none;
+  }
+  .Tutorial>a{
+   color: aliceblue;
+  }
+  .Tutorials>h5{
+    position: absolute;
+    left: 42%;
+    top: 17%;
+  }
+  .Example{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+   
+    
+    border: none;
+  }
+  .Example>a{
+    color: aliceblue;
+  }
+  .Examples>h5{
+    position: absolute;
+    left: 57%;
+    top: 17%;
+  }
+  .Company{
+    position: absolute;
+    left: 70%;
+    top: 25%;
+  
+    
+    border: none;
+  }
+  .Company>a{
+  
+    color: aliceblue;
+  }
+  .Companys>h5{
+    position: absolute;
+    left: 71%;
+    top: 17%;
+  }
+  .app{
+    position: absolute;
+    left: 85%;
+    top: 25%;
+    
+    color: rgb(247, 255, 240);
+    border: none;
+  }
+  .app>a{
+    color: aliceblue;
+  }
+  .apps>h5{
+    position: absolute;
+    left: 87%;
+    top: 17%;
+  }
+  
+
+  
